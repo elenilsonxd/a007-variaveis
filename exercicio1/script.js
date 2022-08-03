@@ -1,8 +1,8 @@
 // criando a variável idade e nome.(letra a e b)
 
-const nome = "elenilson";
+let nome 
 
-let idade = "29";
+let idade
 
 // imprimindo o tipo de variavel. (letra c)
 
@@ -12,7 +12,9 @@ console.log(typeof nome, typeof idade)
 
 // perguntando ao usuário qual o seu nome e idade (letra e)
 
-prompt ('qual o seu nome? e sua idade?')
+nome = prompt('qual é o seu nome?')
+idade = prompt ('qual á sua idade?')
+
 
 console.log (nome, idade)
 

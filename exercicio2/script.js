@@ -1,13 +1,13 @@
 let = 'você tem cachorro?'
 let = 'tem pulgas?'
-let = 'vc pretender ter outro?'
+let = 'vc pretende ter outro?'
 
 
 
 // letra a
-let temCachorro = true; 
-let  temPulgas= false;
-let querTerOutro = true; 
+let temCachorro
+let  temPulgas
+let querTerOutro 
 
 // letra b
 console.log(temCachorro, temPulgas, querTerOutro);
